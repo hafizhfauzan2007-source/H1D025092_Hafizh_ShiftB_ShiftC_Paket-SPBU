@@ -30,7 +30,7 @@ Fitur utama dalam sistem ini meliputi:
 
 ## Screenshoot Output
 1. **Isi BBM**
-![Screenshot Program](IsiBBM.png)
+![Screenshot Program](IsiBahanBakar.png)
 2. **Stok BBM**
 ![Screenshot Program](StokBBM.png)
 3. **Restock BBM**
