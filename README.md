@@ -35,10 +35,10 @@ Fitur utama dalam sistem ini meliputi:
 2. **Stok BBM**
 ![Screenshot Program](StokBBM.png)
 3. **Restock BBM**
-![Screenshot Program](RestockBBM.png)
+![Screenshot Program](Restock.png)
 4. **Ubah Harga BBM**
 ![Screenshot Program](UbahHarga.png)
 5. **Total Penghasilan**
-![Screenshot Program](Total_Penghasilan.png)
+![Screenshot Program](Total.png)
 6. **Cetak Struk**
-![Screenshot Program](CetakStruk.png)
+![Screenshot Program](Struk.png)

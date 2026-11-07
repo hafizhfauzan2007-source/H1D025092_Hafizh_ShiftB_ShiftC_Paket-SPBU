@@ -29,8 +29,8 @@ public class BahanBakar {
     }
 
     public double hitungPotongan(double liter) {
-        if (bersubsidi) {
-            return liter * POTONGAN_SUBSIDI_PER_LITER;
+        if (this.bersubsidi && this.jenis.equals(DIESEL)) {
+            return POTONGAN_SUBSIDI_PER_LITER * liter;
         }
         return 0;
     }

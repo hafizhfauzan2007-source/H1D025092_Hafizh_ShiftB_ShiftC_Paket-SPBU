@@ -47,12 +47,13 @@ public class Main {
     }
 
     private static void siapkanDataBBM() {
-        BahanBakar pertamax = new BahanBakar("BBM-02", "Pertamax", BahanBakar.BENSIN, 12500, false);
+        BahanBakar pertamax = new BahanBakar("BBM-02", "Pertamax", BahanBakar.BENSIN, 16250, false);
         pertamax.setStok(300);
 
         DAFTAR_BBM.add(new BahanBakar("BBM-01", "Pertalite", BahanBakar.BENSIN, 10000, 500, true));
         DAFTAR_BBM.add(pertamax);
-        DAFTAR_BBM.add(new BahanBakar("BBM-03", "Solar", BahanBakar.DIESEL, 6800, 250, true));
+        DAFTAR_BBM.add(new BahanBakar("BBM-03", "BioSolar", BahanBakar.DIESEL, 7800, 250, true));
+        DAFTAR_BBM.add(new BahanBakar("BBM-04", "Dexlite", BahanBakar.DIESEL, 23700, 200, false));
     }
 
     private static void tampilkanMenu() {
@@ -155,8 +156,7 @@ public class Main {
         for (BahanBakar bbm : DAFTAR_BBM) {
             bbm.tampilkanInfo();
         }
-        System.out.println("Batas stok minimum: " + BahanBakar.BATAS_STOK_MINIMUM + " L");
-        System.out.println("Potongan subsidi per liter: Rp" + (long) BahanBakar.POTONGAN_SUBSIDI_PER_LITER);
+
     }
 
     private static void tambahStok() {
